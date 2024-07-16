@@ -17,8 +17,9 @@ body {
 
 body::before {
   content: "";
-  position: fixed;
-  background: #010e1b;
+  position: fixed;  
+  /*background: #040817;*/
+  background: url(/assets/img/background/bg.jpg);
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,11 +34,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #1291d6;
 }
 
 a:hover {
-  color: #12d640;
+  color: #12d6b9;
   text-decoration: none;
 }
 

@@ -12,8 +12,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
-  background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%), url('https://www.toptal.com/designers/subtlepatterns/patterns/data.png'); /* Example dark background with data pattern */
+  color: #333;
+  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgIGhlaWdodD0iMTAwJSIgIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAsMEwzMCwzMEwyMiwxMkwyNiwzMEwyMiwxMkw0MCwwTDIwLDQwTDAsMEwiIHN0cm9rZT0iIzMzMyIvPjwvc3ZnPg=='); /* Example base64 encoded SVG */
+  background-color: #e0e0e0; /* Fallback color */
   background-size: cover;
   margin: 0;
   padding: 0;

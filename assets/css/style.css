@@ -12,10 +12,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #333;
-  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png'); /* Example of a subtle pattern */
-  background-repeat: repeat;
-  background-color: #f4f4f4; /* Fallback color */
+  color: #fff;
+  background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%), url('https://www.toptal.com/designers/subtlepatterns/patterns/data.png'); /* Example dark background with data pattern */
+  background-size: cover;
   margin: 0;
   padding: 0;
 }

@@ -13,11 +13,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* Light gradient for a smooth, modern effect */
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png'); /* Example of a subtle pattern */
+  background-repeat: repeat;
+  background-color: #f4f4f4; /* Fallback color */
   margin: 0;
   padding: 0;
 }
-
 a {
   color: #1e90ff; /* Light Blue */
   text-decoration: none;

@@ -1,11 +1,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
+/*body {
   font-family: 'Roboto', sans-serif;
   color: #333;
   background: url('/assets/img/background/bg.jpg') no-repeat center center fixed;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, rgba(245, 247, 250, 0.8), rgba(195, 207, 226, 0.8)), url('/path/to/your/image.jpg'); /* Example with overlay and image */
+  background-size: cover;
+  background-blur: 10px;
   margin: 0;
   padding: 0;
 }

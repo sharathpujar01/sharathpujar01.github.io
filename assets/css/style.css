@@ -12,7 +12,356 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
-  background: transparent;
+  background: transparent;/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background: url('/assets/img/background/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: #76c7c0;
+}
+
+header .social-links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+header .social-links a {
+  font-size: 1.25rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+  transition: background 0.3s ease;
+}
+
+header .social-links a:hover {
+  background: #1e88e5;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.nav-menu {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 1rem;
+}
+
+.nav-menu a {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #76c7c0;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.nav-menu a:hover, .nav-menu .active > a {
+  color: #76c7c0;
+}
+
+.nav-menu a:hover::before, .nav-menu .active > a::before {
+  width: 100%;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+
+.mobile-nav.active {
+  transform: translateX(0);
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile-nav a:hover {
+  background: #76c7c0;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+  padding: 4rem 0;
+  position: relative;
+  color: #333;
+}
+
+section .container {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
+.section-title h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.section-title p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #76c7c0;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-me .content h3 {
+  font-size: 1.5rem;
+  color: #76c7c0;
+}
+
+.about-me .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-me .content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.about-me .content ul i {
+  color: #76c7c0;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.counts .count-box {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.counts .count-box i {
+  font-size: 2rem;
+  color: #76c7c0;
+}
+
+.counts .count-box span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.counts .count-box p {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.skills .progress .skill {
+  font-weight: 600;
+}
+
+.skills .progress-bar {
+  background-color: #76c7c0;
+}
+
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+  background: #1e88e5;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.interests .icon-box i {
+  font-size: 2rem;
+}
+
+.interests .icon-box h3 {
+  margin-top: 0.5rem;
+}
+
+.interests .icon-box:hover {
+  background: #1976d2;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonial-item {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 1rem;
+  color: #999;
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.resume .resume-item {
+  border-left: 3px solid #76c7c0;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.resume .resume-item h4 {
+  font-size: 1.25rem;
+  color: #76c7c0;
+}
+
+.resume .resume-item h5 {
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.resume .resume-item ul {
+  padding-left: 1rem;
+}
+
+.resume .resume-item ul li {
+  margin-bottom: 0.5rem;
+}
+
 }
 
 body::before {

@@ -1,22 +1,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/*body {
+body {
   font-family: 'Roboto', sans-serif;
   color: #333;
   background: url('/assets/img/background/bg.jpg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
-}*/
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%); /* Light blue gradient */
-  margin: 0;
-  padding: 0;
 }
+
+
 a {
   color: #1e90ff; /* Light Blue */
   text-decoration: none;

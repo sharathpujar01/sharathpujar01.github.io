@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: #1e90ff; /* Light Blue */
+  color: #1e88e5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4682b4; /* Darker Blue */
+  color: #1976d2;
   text-decoration: underline;
 }
 
@@ -43,7 +43,7 @@ header h1 {
 header h2 {
   font-size: 1.5rem;
   margin-top: 0.5rem;
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 header .social-links {
@@ -67,7 +67,7 @@ header .social-links a {
 }
 
 header .social-links a:hover {
-  background: #1e90ff; /* Light Blue */
+  background: #1e88e5;
 }
 
 /*--------------------------------------------------------------
@@ -103,14 +103,14 @@ header .social-links a:hover {
   position: absolute;
   width: 0;
   height: 2px;
-  background-color: #00bfae; /* Teal */
+  background-color: #76c7c0;
   bottom: -5px;
   left: 0;
   transition: width 0.3s ease;
 }
 
 .nav-menu a:hover, .nav-menu .active > a {
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 .nav-menu a:hover::before, .nav-menu .active > a::before {
@@ -154,7 +154,7 @@ header .social-links a:hover {
 }
 
 .mobile-nav a:hover {
-  background: #1e90ff; /* Light Blue */
+  background: #76c7c0;
   color: #fff;
 }
 
@@ -184,7 +184,7 @@ section .container {
 .section-title p {
   font-size: 2rem;
   font-weight: 700;
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 /*--------------------------------------------------------------
@@ -192,7 +192,7 @@ section .container {
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-size: 1.5rem;
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 .about-me .content ul {
@@ -205,7 +205,7 @@ section .container {
 }
 
 .about-me .content ul i {
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 /*--------------------------------------------------------------
@@ -227,7 +227,7 @@ section .container {
 
 .counts .count-box i {
   font-size: 2rem;
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 .counts .count-box span {
@@ -253,14 +253,14 @@ section .container {
 }
 
 .skills .progress-bar {
-  background-color: #00bfae; /* Teal */
+  background-color: #76c7c0;
 }
 
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
 .interests .icon-box {
-  background: #1e90ff; /* Light Blue */
+  background: #1e88e5;
   color: #fff;
   padding: 2rem;
   border-radius: 8px;
@@ -277,7 +277,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #4682b4; /* Darker Blue */
+  background: #1976d2;
 }
 
 /*--------------------------------------------------------------
@@ -323,14 +323,14 @@ section .container {
 }
 
 .resume .resume-item {
-  border-left: 3px solid #00bfae; /* Teal */
+  border-left: 3px solid #76c7c0;
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
 
 .resume .resume-item h4 {
   font-size: 1.25rem;
-  color: #00bfae; /* Teal */
+  color: #76c7c0;
 }
 
 .resume .resume-item h5 {

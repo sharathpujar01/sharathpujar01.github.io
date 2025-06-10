@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHARATH PUJAR - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import (Inter) */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-100 text-gray-800; /* Default background and text color */
+        }
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md p-4 md:p-6 sticky top-0 z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#" class="text-3xl font-extrabold text-blue-600 rounded-md p-2">
+                SHARATH <span class="text-gray-900">PUJAR</span>
+            </a>
+            <div class="mt-4 md:mt-0 space-x-4 flex justify-center">
+                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3 rounded-md transition-colors duration-200">About</a>
+                <a href="#skills" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3 rounded-md transition-colors duration-200">Skills</a>
+                <a href="projects.html" class="text-gray-700 hover:text-blue-600 font-medium py-2 px-3 rounded-md transition-colors duration-200">Projects</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-md">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-blue-600 to-purple-700 text-white py-24 md:py-36 overflow-hidden rounded-b-3xl">
+        <div class="container mx-auto text-center px-4">
+            <div class="flex justify-center mb-8">
+                <img src="https://placehold.co/150x150/ffffff/000000?text=SP" alt="Your Profile Picture" class="rounded-full border-4 border-white shadow-xl w-36 h-36 md:w-40 md:h-40 object-cover">
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Hi, I'm <span class="text-yellow-300">SHARATH PUJAR</span>
+            </h1>
+            <p class="text-lg md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
+                A passionate [Your Profession/Specialty, e.g., Data Analyst] focused on building impactful and innovative solutions.
+            </p>
+            <a href="projects.html" class="bg-white text-blue-700 px-8 py-4 rounded-full text-xl font-semibold hover:bg-gray-100 transition-transform transform hover:scale-105 shadow-lg">
+                View My Work
+            </a>
+        </div>
+        <!-- Abstract shapes for background aesthetic -->
+        <div class="absolute top-0 left-0 w-48 h-48 bg-white opacity-10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 right-0 w-64 h-64 bg-yellow-300 opacity-10 rounded-full translate-x-1/2 translate-y-1/2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 bg-white shadow-sm">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    About <span class="text-blue-600">Me</span>
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    Hello! I'm SHARATH PUJAR, a [Your Profession/Years of Experience] with a background in [Your Field/Education]. My journey in [Your Field] began with a fascination for [Something specific that sparked your interest].
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    I thrive on tackling complex problems and transforming ideas into tangible, user-friendly applications. My expertise lies in [mention a key area, e.g., data analysis, business intelligence, data science] and I'm always eager to learn new technologies and methodologies.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Outside of work, I enjoy [mention a hobby or interest, e.g., playing chess, reading, photography], which helps me stay creative and balanced. I'm excited to connect and explore how my skills can contribute to your next project!
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/600x400/D1E7DD/000000?text=About+Me+Image" alt="About Me" class="rounded-xl shadow-lg w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                My <span class="text-purple-600">Skills</span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Skill Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-4xl mb-4">📊</div>
+                    <h3 class="text-xl font-semibold text-gray-900">Data Analytics</h3>
+                    <p class="text-gray-600 mt-2">Data Cleaning, EDA, Statistical Analysis</p>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-xl font-semibold text-gray-900">Power BI</h3>
+                    <p class="text-gray-600 mt-2">Dashboard Creation, DAX, Data Modeling</p>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-4xl mb-4">📉</div>
+                    <h3 class="text-xl font-semibold text-gray-900">Tableau</h3>
+                    <p class="text-gray-600 mt-2">Interactive Visualizations, Storytelling</p>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-4xl mb-4">🗄️</div>
+                    <h3 class="text-xl font-semibold text-gray-900">SQL</h3>
+                    <p class="text-gray-600 mt-2">Querying, Database Management, Optimization</p>
+                </div>
+                <!-- Skill Card 5 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-4xl mb-4">✖️</div>
+                    <h3 class="text-xl font-semibold text-gray-900">EXCEL</h3>
+                    <p class="text-gray-600 mt-2">Advanced Formulas, Pivot Tables, VBA</p>
+                </div>
+                <!-- Skill Card 6 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300">
+                    <div class="text-4xl mb-4">🧠</div>
+                    <h3 class="text-xl font-semibold text-gray-900">Data Science</h3>
+                    <p class="text-gray-600 mt-2">Machine Learning, Predictive Modeling, NLP</p>
+                </div>
+                <!-- Add more skill cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-gradient-to-r from-purple-700 to-indigo-800 text-white rounded-t-3xl">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                Let's <span class="text-yellow-300">Connect</span>!
+            </h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-10 opacity-90">
+                I'm always open to new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <!-- Replace with your actual social media links -->
+                <a href="#" class="text-white hover:text-blue-300 transition-colors duration-200">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="#" class="text-white hover:text-blue-300 transition-colors duration-200">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.084-.74-.084-.725-.084-.725 1.205.086 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.493.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.293-1.552 3.3-1.23 3.3-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576c4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+                <!-- Add more social media icons as needed (e.g., Twitter, Instagram) -->
+            </div>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-6">
+                You can also email me directly at: <a href="mailto:your.email@example.com" class="text-yellow-300 hover:underline">your.email@example.com</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 SHARATH PUJAR. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

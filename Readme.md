@@ -1,5 +1,5 @@
 # Personal Portfolio 🔥
->https://sharathpujar01.github.io/
+>https://DataBySharath.github.io/
 
 :star: Star me on GitHub — it helps!
 
